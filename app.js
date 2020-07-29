@@ -1,5 +1,6 @@
 
 
+
 let textAera = "";
 let selectOperation = "";
 
@@ -8,8 +9,8 @@ let selectOperation = "";
     btPunch.addEventListener("click", appuiBoutonPunch);
 
 
-
-// quand on appuis sur le bouton on arrive ici 
+// une fonction c'est comme un bloc avec un nom qui stock du code qui et lu quand on l'appele
+// quand on appuis sur le bouton puch on arrive ici 
 function appuiBoutonPunch(){
     console.log("l'appui a bi etait fait et la fonctio appuiBoutonPunch a bien etait appelé");
     //on cible les element sur lequel on va agir.
